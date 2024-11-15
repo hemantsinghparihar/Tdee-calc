@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Privecy() {
+    
   return (
     <div className='container'>
        <div className="page">

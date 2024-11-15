@@ -80,3 +80,60 @@ h1.nav-brand {
     text-decoration: none;
     background-color: #1E2A36;
 }
+
+.navbar-header-container button{
+    display: none;
+    /* border: 1px solid black; */
+    font-size: 2rem;
+    width: 50px;
+}
+
+@media screen and (max-width:650px){
+    .nav-links-container{
+        display: none;
+    }
+
+    .navbar-header-container{
+        width: 100%;
+        margin: 0 .3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar-header-container button{
+        display: block;
+    }
+    .nav-links-container.nav-links-container.active {
+        display: flex;
+        height: auto;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #2C3E50;
+        /* z-index: 1000; */
+    }
+
+    .nav-link-list{
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        width: 100%;
+
+    }
+
+    .nav-link{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 0 ;
+    }
+    .nav-link a{
+        position: relative;
+        display: block;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}

@@ -19,6 +19,7 @@ const onSubmit = (data) => {
     console.log('data for calculation',data);
 
     const { gender, age, weight, height, activity, bodyFat } = data;
+console.log('✌️bodyFat --->', bodyFat);
     let bmr;
 
     
@@ -164,7 +165,7 @@ const onSubmit = (data) => {
                                 <span style={{position:'absolute',top:'26px',left:'14px'}}>(optional)</span>
                             </td>
                             <td>
-                                <input {...register('fat')} type="text" name="fat"  className='form-control' id='fat-matric' style={{width:'40px'}} maxLength={3} placeholder='15' />
+                                <input {...register('bodyFat')} type="text" name="bodyFat"  className='form-control' id='fat-matric' style={{width:'40px'}} maxLength={3} placeholder='15' />
                                 
                             </td>
                         </tr>

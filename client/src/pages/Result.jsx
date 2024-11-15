@@ -203,7 +203,7 @@ console.log('✌️stats --->', stats);
         <h2>Calorie Tracking Tools</h2>
         <p>There are only 3 tools required for tracking your calories effectively…</p>
 
-        <div className="tracking-device mx-0 mt-5 flex gap-5">
+        <div className="tracking-device mx-0 mt-5 ">
             <div className="left-track ">
                 <a href="">
                     <img src="https://tdeecalculator.net/assets/images/food-scale.jpg" alt="" />

@@ -1,3 +1,21 @@
 ul{
     list-style-type: none;
   }
+
+  .footer-container-in{
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+
+.footer-links-container{
+    height: 50px;
+}
+
+.foot-link-list{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+        
+}

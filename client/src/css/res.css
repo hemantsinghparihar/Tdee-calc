@@ -135,3 +135,73 @@
 .right-track2{
     width: 70%;
 }
+
+.tracking-device{
+    display: flex;
+    gap: 20px;
+}
+@media screen and (max-width:650px){
+    .stats{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-stat{
+   
+        width: 80%;
+    }
+    .right-stat{
+        width: 80%;
+    }
+
+    .macro-table{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .col-macro{
+        width: 90%;
+    }
+    .tracking-device{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left-track{
+        width: 30%;
+    }
+    
+    .right-track2{
+        width: 100%;
+    }
+    
+    .ideal-stats{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 2rem;
+    
+    }
+    .ideal-weight{
+        width: 90%;
+    }
+    .ideal-stats h2 {
+        font-size: 20px;
+    }
+    
+    .ideal-bmi-score{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width:550px){
+    .left-stat{
+   
+        width: 100%;
+    }
+    .right-stat{
+        width: 100%;
+    }
+}
