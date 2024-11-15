@@ -1,0 +1,137 @@
+.res-headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.res-headline h1{
+    font-size: 36px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.stats{
+    display: flex;
+    gap: 20px;
+
+}
+.left-stat{
+   
+    width: 30%;
+}
+.right-stat{
+    width: 70%;
+}
+#calories{
+    background: #fdf6e5;
+    color: #333;
+    position: relative;
+    /* width: 232px; */
+    width: 100%;
+    height: 232px;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #ede7bb;
+}
+#calories .h2 {
+    color: #2C3E50;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+#calories .cals{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.stats-table{
+    display: flex;
+    flex-direction: column;
+}
+
+.single-stat{
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.single-stat div{
+    width: 50%;
+    padding: 6px 0;
+}
+
+.ideal-stats{
+    display: flex;
+    gap: 15px;
+    margin-top: 2rem;
+
+}
+.ideal-weight{
+    width: 50%;
+}
+.ideal-stats h2 {
+    font-size: 20px;
+}
+
+.ideal-bmi-score{
+    width: 50%;
+}
+
+.results h2 {
+    font-size: 20px;
+}
+
+.macro-table{
+    display: flex;
+    gap: 10px;
+}
+
+.col-macro{
+    width: 33%;
+}
+
+
+.blue-label{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 0.2em 0.6em 0.4em;
+    background-color: #337ab7;
+
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.macrobox{
+    background: #fdf6e5;
+    color: #333;
+    position: relative;
+    /* width: 232px; */
+    width: 100%;
+   
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid #ede7bb;
+}
+
+.macro-styles .h2{
+    color: #2C3E50;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+.left-track{
+    width: 16.66%;
+}
+
+.right-track2{
+    width: 70%;
+}

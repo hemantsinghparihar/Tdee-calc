@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Helvetica-Neue-Medium";
+  src: url("../public/fonts/HelveticaNeueMedium.otf") format("opentype");
+  font-weight: 500; /* Or normal if it's closer to regular weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Helvetica-Neue-Bold";
+  src: url("../public/fonts/HelveticaNeueBold.otf") format("opentype");
+  font-weight: 500; /* Or normal if it's closer to regular weight */
+  font-style: normal;
+}
+@font-face {
+  font-family: "Candara";
+  src: url("../public/fonts/Candara.ttf") format("truetype");
+  font-weight: 500; /* Or normal if it's closer to regular weight */
+  font-style: normal;
+}

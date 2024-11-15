@@ -1,0 +1,79 @@
+.nav-blue{
+    background-color: #2C3E50;
+    margin-bottom: 2px;
+}
+
+.navbar-container{
+    position: relative;
+    min-height: 50px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.nav-bar{
+    /* border: 2px solid rgb(119, 255, 7); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 0 15px;
+    color: white;
+}
+
+/* h1 and button ke bahr ka container */
+.navbar-header-container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+   
+}
+
+/* nav-brand is the heading h1 */
+h1.nav-brand {
+    font-family: Candara, Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+
+.nav-barnd{
+    height: 50px;
+    padding: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+   
+}
+.nav-brand span{
+    font-weight: bold;
+    
+}
+
+/* links outer container ==============*/
+
+.nav-links-container{
+    height: 50px;
+}
+/* nav links andar wala container */
+.nav-link-list{
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+        
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding: 0 ;
+}
+.nav-link a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+
+.nav-link a:hover{
+    text-decoration: none;
+    background-color: #1E2A36;
+}
