@@ -10,7 +10,7 @@ function App() {
   
 
   return (
-    <div>
+    <div id='root'>
       <Header/>
       <Outlet/>
       <Footer/>

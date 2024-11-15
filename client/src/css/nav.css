@@ -2,6 +2,9 @@
     background-color: #2C3E50;
     margin-bottom: 2px;
 }
+ul{
+    list-style-type: none;
+  }
 
 .navbar-container{
     position: relative;

@@ -4,7 +4,7 @@ import { Link,NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='navbar-container nav-blue footer' style={{marginBottom:'0',position:'fixed',bottom:'0',left:'0',width:'100%' }}>
+    <div className='navbar-container nav-blue footer' >
     <nav className='nav-bar px-[15px]  '>
 
       <div className="navbar-header-container mx-0">
@@ -18,8 +18,9 @@ function Footer() {
 
       <div className="nav-links-container">
           <ul className='nav-link-list'>
-              <li className='nav-link'><NavLink style={{textDecoration:'underline'}} >Terms</NavLink></li>
-              <li className='nav-link'><NavLink style={{textDecoration:'underline'}}>Privecy</NavLink></li>
+              <li className='nav-link'><NavLink style={{textDecoration:'underline'}} 
+              to={'/terms'}>Terms</NavLink></li>
+              <li className='nav-link'><NavLink to={'/privecy'} style={{textDecoration:'underline'}}>Privecy</NavLink></li>
               <li className='nav-link'><NavLink style={{textDecoration:'underline'}} >Contact</NavLink></li>
           </ul>
       </div>
@@ -29,3 +30,6 @@ function Footer() {
 }
 
 export default Footer
+
+
+// i want to keep this footer conatiner at the bottom always , not bottom of the screen but bottom of our html page how can i do it  

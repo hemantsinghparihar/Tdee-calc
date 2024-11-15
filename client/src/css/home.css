@@ -6,6 +6,10 @@
     margin-bottom: 30px;
 }
 
+ul{
+    list-style-type: none;
+  }
+
 /* hero heading===== */
 .hero-headline-container h2{
     font-size: 27px;

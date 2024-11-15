@@ -10,6 +10,8 @@ import Contact from './pages/Contact.jsx'
 import Result from './pages/Result.jsx'
 import { Provider } from 'react-redux'
 import { store } from './app/store.js'
+import Terms from './pages/Terms.jsx'
+import Privecy from './pages/Privecy.jsx'
 
 
 
@@ -21,6 +23,8 @@ const router=createBrowserRouter(
       <Route path='faq' element={<FAQ/>} />  
       <Route path='contact' element={<Contact/>} /> 
       <Route path='results' element={<Result/>}/>
+      <Route path='terms' element={<Terms/>} />
+      <Route path='privecy' element={<Privecy/>}/>
 
     </Route>
   )
