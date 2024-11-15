@@ -4,7 +4,7 @@ import { Link,NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='navbar-container nav-blue ' style={{marginBottom:'0' }}>
+    <div className='navbar-container nav-blue footer' style={{marginBottom:'0',position:'fixed',bottom:'0',left:'0',width:'100%' }}>
     <nav className='nav-bar px-[15px]  '>
 
       <div className="navbar-header-container mx-0">

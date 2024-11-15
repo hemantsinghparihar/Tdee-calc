@@ -147,3 +147,9 @@ hr{
     width: 80%;
     margin: 20px auto;
 }
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}

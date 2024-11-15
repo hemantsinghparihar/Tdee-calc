@@ -78,6 +78,7 @@ const onSubmit = (data) => {
 
     const stats={
         bmr,
+        bodyFat,
         bmi,
         harrisBenedict,
         tdee,

@@ -26,9 +26,12 @@ console.log('✌️stats --->', stats);
 
         </div>
 
-        <div className="alert alert-info mt-3">
-            You left the body fat percentage field blank. A more accurate formula is used to estimate your TDEE when you know it. To learn your body fat percentage with calipers from Amazon,<Link className='submit-btn'>click here</Link>
-        </div>
+        {!stats.bodyFat &&
+            <div className="alert alert-info mt-3">
+                You left the body fat percentage field blank. A more accurate formula is used to estimate your TDEE when you know it. To learn your body fat percentage with calipers from Amazon,<Link className='submit-btn'>click here</Link>
+            </div>
+
+        }
 
         <div className="stats">
             <div className="left-stat">
@@ -143,23 +146,23 @@ console.log('✌️stats --->', stats);
 
                     <div className="single-stat">
                         <div>
-                        18.5 – 24.99
+                       <strong> 18.5 – 24.99</strong>
                         </div>
-                        <div className='text-center'>Normal Weight</div>
+                        <div className='text-center'><strong>Normal Weight</strong></div>
                     </div>
 
                     <div className="single-stat">
                         <div>
-                        18.5 – 24.99
+                        25 – 29.99
                         </div>
-                        <div className='text-center'>Normal Weight</div>
+                        <div className='text-center'>Overweight</div>
                     </div>
 
                     <div className="single-stat">
                         <div>
-                        18.5 – 24.99
+                        30+
                         </div>
-                        <div className='text-center'>Normal Weight</div>
+                        <div className='text-center'>Obese</div>
                     </div>
 
                     
